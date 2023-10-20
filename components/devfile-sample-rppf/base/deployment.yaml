@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rppf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0055-tenant/ci1t-830-0055-app/devfile-sample-rppf@sha256:fb797c6b51540c08db92aba2a2f0bafd43f11e559e435af063c46b8ef769dfe7
         name: my-nodejs
         ports:
         - containerPort: 3001
