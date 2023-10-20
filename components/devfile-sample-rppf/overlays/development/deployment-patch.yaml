@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rppf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0055-tenant/ci1t-830-0055-app/devfile-sample-rppf@sha256:fb797c6b51540c08db92aba2a2f0bafd43f11e559e435af063c46b8ef769dfe7
+        name: my-nodejs
+        resources: {}
+status: {}
